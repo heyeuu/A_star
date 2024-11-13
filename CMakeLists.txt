@@ -34,6 +34,8 @@ include_directories(inc)
 add_executable(
     ${PROJECT_NAME}
     src/main.cpp
+    src/a_star.cpp
+    src/node.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} ${CURSES_LIBRARIES})
